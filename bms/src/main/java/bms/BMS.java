@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class BMS {
-    public static final String SQL_PATH = "/main/java/bms/sql/";
+    public static final String SQL_PATH = "/src/main/java/sql/";
     private static final Scanner _scanner = new Scanner(System.in);
     public static String URL = "jdbc:mysql://localhost:3306/";
     private static Connection _connection = null;
